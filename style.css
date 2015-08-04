@@ -1,0 +1,67 @@
+body{ padding:0px; margin:0px; font-family:calibri;}
+div.main{ width:702px;  padding:10px; float:left;}
+div.change_able{ float:right; height:660px; width:605px; background:#fafafa;}
+div.floor{background:#ffffff; border:1px solid #e1e1e1; width:700px; margin-bottom:20px;}
+div.floor_status{background:#f6f6f6; border-top:1px solid #e1e1e1; color:#666666; line-height:30px; vertical-align:middle; font-size:13px; font-weight:bold;}
+div.floor_status img { height:14px; margin-left:20px;}
+div.table_list{ min-height:150px; margin:15px;}
+div.flor_name{background: none repeat scroll 0 0 #BAD03A; color: #FFFFFF; float: right; margin-right: 20px; padding: 10px; width: 80px; text-align:center; font-size:14px; box-shadow: 0 3px 4px #DDDDDD;}
+
+div.table{border: 1px solid #E1E1E1; border-radius: 5px 5px 5px 5px; display: inline-block; margin: 5px; padding: 5px; width:140px;}
+div.table_status{ float:right;}
+div.table img{ height:16px;}
+
+div.total_body {background:url(img/bg_op.png); display: none;height: 100%;position: fixed; width: 100%; z-index: 100;}
+div.page{ background:#FFF; padding:0px 10px; margin:0px;border: 1px solid #E1E1E1;}
+div#page_order{ width:700px; float:right;}
+div#page_bill { width:500px; float:right; text-align:center;}
+ul.food_ul{ padding:0px; margin:0px;}
+ul.food_ul li{ list-style:none; padding:0px 0px 0px 10px; margin:-1px; border: 1px solid #E1E1E1; cursor:pointer; text-align:left; width:135px; overflow:hidden; }
+ul.ul_catagory{ padding:0px; margin:0px; height:550px; overflow:auto;}
+ul.ul_catagory li { display:none; list-style:none; padding:0px; margin:-1px; border: 1px solid #E1E1E1; cursor:pointer; text-align:left; width:199px; overflow:hidden;}
+div.bill_view table{ width:100%; background:#CCC; margin-top:10px;}
+div.bill_view table tr td{ background:#FFF;}
+
+tr.print_yes td{ color:#F00;}
+div#take_away{background: none repeat scroll 0 0 #BAD03A;box-shadow: 0 3px 4px #DDDDDD; color: #FFFFFF;float: right;font-size: 14px; margin-right: 20px;padding: 10px; text-align:center; width: 80px; cursor:pointer;}
+/*Login Page CSS*/
+
+div.login{ background:url(img/wi_op.png);  border: 1px solid #E1E1E1;  border-radius: 10px 10px 10px 10px; padding: 60px; width: 400px;}
+div.login input{ padding:5px 10px; border-radius:5px;  border: 1px solid #E1E1E1; margin:5px; background:none;}
+div.login select{ padding:5px 10px 5px 55px;; border-radius:5px;  border: 1px solid #E1E1E1; margin:5px; background:none;}
+
+.button{ background:#fafafa;  padding:5px 10px; border-radius:5px;  border: 1px solid #E1E1E1; margin:5px; text-decoration:none; cursor:pointer;}
+.button:hover{ background:#eeeeee;}
+
+/* Data View CSS*/
+
+div.div_data_view{ background:#ffffff; border:0px solid #e1e1e1; margin:5px;}
+div.div_data_view h1{background:#243957; border-radius: 0px 0px 0px 0px; color: #FFFFFF;font-size: 14px; line-height: 23px; padding: 0 10px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); margin:0px;}
+div.div_data_view div.data_head { background:#DDDDDD; padding:0px 0px 0px 0px; border:1px solid #B6B6C6;}
+div.div_data_view div.data_head table tr th{ text-align:left; font-size:13px; font-weight:normal;}
+div.div_data_view div.data_list { border:1px solid #dddddd;}
+
+div.div_data_view div.data_list table tr.even td { background:#f9f9f9;border-bottom:1px solid #dddddd; padding:0px; font-size:13px;}
+div.div_data_view div.data_list table tr.odd td { background:#ffffff;border-bottom:1px solid #dddddd; padding:0px; font-size:13px;}
+
+div.div_data_view div.data_insert input{ padding:5px 10px; border-radius:5px;  border: 1px solid #E1E1E1; margin:5px;}
+div.div_data_view div.data_insert select{ padding:5px 10px; border-radius:5px;  border: 1px solid #E1E1E1; margin:5px;}
+
+
+
+
+
+
+
+
+div#tab{ margin:0px; position:fixed; margin-left:200px;}
+div#tab ul { padding:0px; margin:0px;}
+div#tab ul li{list-style:none; float:left; background:#eeeeee; box-shadow: 0 0 10px #AAAAAA;  border: 1px solid #E1E1E1; text-decoration:none; cursor:pointer; width:100px; text-align:center; border-radius:0px 0px 10px 10px; padding:5px 0px 5px 0px;}
+
+div#tab ul li.tab_selected{ background:#FFF;}
+
+
+div#admin_view{ float:left;}
+div#admin_view ul{ margin:0px; padding:0px;}
+div#admin_view ul li{ list-style:none; width:150px; text-align:center; background:#BAD03A; margin:10px; padding:10px 0px 10px 0px; color:#FFF;}
+div#admin_view ul li a{ text-decoration:none; color:#FFF;}
